@@ -1,0 +1,84 @@
+.sym{
+    display: inline-block;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+}
+#timer,#cont,#but{
+    display: flex;
+    justify-content: center;
+}
+#timer{
+    margin-top: 1.5rem;
+}
+button{
+    height: 1.6rem;
+    width: 60px;
+    background-color: rgba(95, 158, 160, 0.813);
+    font-size: 1rem;
+    color: aliceblue;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-radius: 3px;
+
+}
+button:hover{
+    background-color: rgba(95, 158, 160, 0.945);
+}
+
+button:active{
+    background-color:rgba(100, 175, 177, 0.945);
+}
+#but{
+    margin-top: 1.5rem;
+}
+#elements{
+    width: 40%;
+    height:30vh;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.sym{
+    font-size: 3rem;
+   font-weight: bold;
+}
+
+
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(25, 47, 3);
+    font-size: 1.5rem;
+}.sym{
+    color: rgba(0, 0, 0, 0.808);
+}
+
+
+@media(max-width:800px){
+    #heading{
+        font-size: 20px;
+    }
+    #elements{
+        width: 60%;
+        height:22vh;
+        background-color: antiquewhite;
+        border-radius: 5px;
+    }
+    button{
+        height: 30px;
+        width: 50px;
+        background-color: rgba(95, 158, 160, 0.813);
+        font-size: 10px;
+        color: aliceblue;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        border-radius: 3px;
+    
+    }
+}
+@media(max-width:500px){
+    .sym{
+        font-size: 2rem;
+       font-weight: bold;
+    }
+}
